@@ -1,33 +1,25 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>The Cookie Recipe</title>
-
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	
 	<style>
-		body {
-		  font-family: helvetica;
-		  background: #cccccc;
-		}
-		img {
+body {
+  font-family: helvetica;
 
-			border-radius: 50px;
-			border: 5px solid black;
-		}
+}
 
-		h1 {
-			color: #8B572A
-		}
+h1 {
+	color: #8B572A
+}
 
-	</style>
+</style>
 
 </head>
 
 <body>
-	<img src="cookies.jpg"/>
+	<img src="file:///Users/sarafarhat/Documents/FEWD/FEWD-SEA-7/Week_01_Basics/01_html_basics/starter_code/cookie_recipe/cookies.jpg">
 	
-	<h1 id="title">The Cookie Recipe</h1>
+	<h1>The Cookie Recipe</h1>
 	
 	<h2>The Best Chocolate Chip Cookies</h2>
 	
@@ -36,7 +28,7 @@
 	<h3>INGREDIENTS</h3>
 	<p>
 		<ul>
-			<li class="optional">1 1/2 cup (3 sticks) softened butter</li>
+			<li>1 1/2 cup (3 sticks) softened butter</li>
 			<li>1 cup brown sugar</li>
 			<li>1 cup granulated sugar</li>
 			<li>1 Tbl vanilla instant pudding powder</li>
@@ -54,7 +46,7 @@
 
 <p>
 	<ol>
-		<li id="main">Preheat oven to 350 degrees Beat butter and sugars together until light and fluffy.</li>
+		<li>Preheat oven to 350 degrees Beat butter and sugars together until light and fluffy.</li>
 		<li>Stir in pudding mix milk and vanilla extract. Beat in eggs.</li>
 		<li>Add dry ingredients and stir until combined.</li>
 		<li>Stir in chocolate chips and nuts.</li>
@@ -69,9 +61,7 @@
 
 <p>Probably bad for you, but who cares. MMMMMM COOKIES!!!! nom nom nom</p>
 
-<h4>This recipe was taken from the below source</h4>
-	<a id="button" href="http://www.opensourcefood.com/people/Amanori/recipes/mamas-recipe-the-best-chocolate-chip-cookies" class="button">View source</a>
-	
+<h4>This recipe was taken from this source <a href="http://www.opensourcefood.com/people/Amanori/recipes/mamas-recipe-the-best-chocolate-chip-cookies">here</a></h4>
 
 
 </body>

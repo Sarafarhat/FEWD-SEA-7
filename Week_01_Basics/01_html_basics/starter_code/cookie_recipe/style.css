@@ -1,0 +1,22 @@
+body{
+	background: #cccccc;
+}
+#main{
+	font-weight: bold;
+}
+
+.optional{
+	font-weight:bold;
+}
+
+#button{
+	background-color:gray;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#title{
+	text-shadow: 2px 2px gray;
+	font-size: 50px;
+}
