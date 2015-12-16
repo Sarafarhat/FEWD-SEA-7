@@ -1,0 +1,38 @@
+h1{
+	background:red;
+	border: 3px dotted black;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	max-width: 1000px;
+}
+
+p{
+	background: blue;
+	color:white;
+	padding: 15px 5px 5px 5px;
+}
+
+code {
+	background:white;
+	color:black;
+	padding: 5px 5px;
+	border: 1px solid red;
+	margin: 10px;
+
+
+}
+
+h2{
+	font-family: helvetica;
+	font-style: italic;
+}
+
+ol{
+	list-style-type: square;
+}
+
+li{
+
+   font-size: 16px;
+   margin:20px;
+}

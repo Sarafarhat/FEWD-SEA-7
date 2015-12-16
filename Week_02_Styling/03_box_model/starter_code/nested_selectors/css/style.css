@@ -1,0 +1,14 @@
+blockquote{
+	font-style:italic;
+
+}
+
+blockquote em{
+	font-weight: normal;
+
+}
+
+body li{
+	list-style-type: square;
+ 
+}

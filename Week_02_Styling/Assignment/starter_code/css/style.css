@@ -46,12 +46,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  font-family:"Open Sans", sans-serif;
+
 }
 
 
@@ -59,20 +55,139 @@ body {
 /* LAYOUT
 /*******************************************/
 
+
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+header{
+      
+}
+.container {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+#testimonial{
+  background:url(../images/testimonial_bg.jpg) no-repeat center;
+  font-style: italic;
+}
+
+#signup{
+  background-color: #f9e42e;
+}
+
+h1{
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+  font-weight: 800;
+
+}
+header h1{
+  padding: 50px 0px 0px 150px;
+}
+header h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0 30px 0;
+  font-weight: 600;
 
 }
 
-header {
+header h1,
+header h2 {
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+article h2{
+  color:#121212;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px 0px 10px 0px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+article p{
+  font-weight: 300;
+  font-size: 20px;
+  margin:0px;
+}
+article{
+    background-color: #f0efef;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 0px 0px 150px;
+    padding-right: 500px;
+    line-height: 30px;
+}
+
+article ul{
+  font-size: 20px;
+  list-style-type: disc;
+  padding: 20px 0px 60px 60px;
+  font-weight: lighter;
+  margin:0px;
+}
+
+blockquote{
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 40px 345px 50px 345px;
+  line-height: 40px;
+  font-size: 28px;
+  margin: 0px;
+}
+blockquote em{
+  font-style: normal;
+  font-weight: 600;
 
 }
+
 
 footer {
+  background-color: #121212;
+  text-align: center;
 
+}
+
+footer h1{
+  color: #f9e42e;
+  padding:40px 0 10px 0px;
+}
+
+footer h4{
+  color:white;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 20px 0px 20px 0px;
+}
+footer img{
+  padding: 10px;
+}
+.cta{
+  display: inline-block;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  width: 250px;
+  padding: 10px 20px 30px 70px;
+
+}
+
+.yellow{
+  background-color: #f9e42e;
+  margin: 30px 0px 300px 450px;
+  font-weight: 800;
+  
+}
+
+.blue{
+  background-color:#033048;
+  color: white;
+  margin: 30px 0px 30px 450px;
 }
 
 /******************************************
