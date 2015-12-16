@@ -58,19 +58,23 @@ body {
 
 /* Center the container */
 header{
-      
 }
 .container {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 700px;
+  text-align: center;
+
 }
 #testimonial{
   background:url(../images/testimonial_bg.jpg) no-repeat center;
   font-style: italic;
+  text-align: center;
 }
 
 #signup{
   background-color: #f9e42e;
+  text-align: center;
 }
 
 h1{
@@ -82,12 +86,13 @@ h1{
 }
 header h1{
   padding: 50px 0px 0px 150px;
+  text-align: left;
 }
 header h2{
   text-align: center;
   font-size: 30px;
-  padding: 100px 0 30px 0;
   font-weight: 600;
+  padding-top: 50px;
 
 }
 
@@ -173,22 +178,20 @@ footer img{
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   width: 250px;
-  padding: 10px 20px 30px 70px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
 
 }
 
 .yellow{
   background-color: #f9e42e;
-  margin: 30px 0px 300px 450px;
   font-weight: 800;
-  
 }
 
 .blue{
   background-color:#033048;
   color: white;
-  margin: 30px 0px 30px 450px;
-}
+  margin: 30px 0px 30px 0px;
 
 /******************************************
 /* ADDITIONAL STYLES
