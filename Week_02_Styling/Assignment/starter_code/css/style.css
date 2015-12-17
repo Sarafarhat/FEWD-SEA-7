@@ -70,6 +70,7 @@ header{
   background:url(../images/testimonial_bg.jpg) no-repeat center;
   font-style: italic;
   text-align: center;
+  background-size: cover;
 }
 
 #signup{
