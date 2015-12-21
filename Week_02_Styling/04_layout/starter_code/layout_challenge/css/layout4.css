@@ -1,0 +1,67 @@
+body{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+#logo{
+	width:200px;
+	height: 120px;
+	display: block;
+	float:left;
+	margin: 0 auto;
+}
+
+header, footer{
+	height: 130px;
+	margin:10px;
+}
+
+nav, ul{
+	list-style-type: none;
+	height:150px;
+	width: 820px;
+	margin: 0 auto;
+	
+}
+nav, ul, li{
+	float: right;
+
+}
+
+nav, li{
+
+	display: block;
+	width:140px;
+	height:50px;
+	margin:10px;
+}
+
+#container{
+	height:300px;
+	width:1000px;
+	display: block;
+	margin:10px;
+}
+
+section{
+
+	width: 320px;
+	height: 200px;
+	margin:10px;
+	display:block;
+}
+
+#one{
+	float:left;
+	
+}
+
+#two{
+	float:left;
+
+}
+
+#three{
+	float:right;
+
+}

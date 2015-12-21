@@ -1,0 +1,36 @@
+body {
+	width:1020px;
+	margin:0 auto;
+}
+
+header, footer{
+	height:200px;
+	margin:10px;
+
+}
+
+sidebar{
+	width:200px;
+	height: 400px;
+	display:block;
+	margin:10px;
+}
+
+section{
+	width:560px;
+	height:400px;
+	margin:10px;
+	float:left;
+}
+
+#left{
+	float:left;
+}
+
+#right{
+	float:right;
+
+}
+
+
+

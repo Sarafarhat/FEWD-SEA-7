@@ -1,0 +1,50 @@
+body{
+	width:1020px;
+}
+
+header, footer{
+	height: 200px;
+	margin:10px;
+}
+
+sidebar{
+	margin:10px;
+	display: block;
+	height:390px;
+	width:490px;
+}
+
+#left{
+	float:left;
+
+	
+}
+
+#right{
+	float:right;
+
+}
+
+section{
+
+	width: 320px;
+	height: 200px;
+	margin:10px;
+	display:block;
+}
+
+#one{
+	float:left;
+	
+}
+
+#two{
+	float:left;
+
+}
+
+#three{
+	float:right;
+
+}
+

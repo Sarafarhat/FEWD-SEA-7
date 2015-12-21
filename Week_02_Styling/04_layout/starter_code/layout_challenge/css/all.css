@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+}
+
+.gray {
+	background-color: #cccccc;
+	border: 1px solid #808080;
+}
+
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}

@@ -1,0 +1,25 @@
+body {
+	width:1020px;
+	margin:0 auto;
+}
+
+header,footer {
+	height:200px;
+	clear:both;
+	margin:20px 0;
+}
+
+sidebar {
+	float:right;
+	display:block;
+	width:300px;
+	height:340px;
+}
+
+section {
+	float:left;
+	height:340px;
+	width:700px;
+}
+
+
