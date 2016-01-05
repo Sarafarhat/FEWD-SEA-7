@@ -183,13 +183,31 @@ footer img{
   margin: 30px 0px 30px 0px;
 }
 
-span{
+.read{
   float: right;
   margin:20px 0px 20px 0px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   font-size:24px;
   color: #033048;
+}
+.learn{
+  margin:20px 0px 20px 0px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size:20px;
+  color: #033048;
+}
+.category{
+  margin:0px 0px 0px 0px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-size:20px;
+  color: #033048;
+  display: block;
+}
+#category{
+margin: 20px 0px 20px 0px;
 }
 
 .clearfix:after {
