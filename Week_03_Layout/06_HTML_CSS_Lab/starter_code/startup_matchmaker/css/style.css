@@ -1,0 +1,178 @@
+header{
+	background-color: black;
+	height: 150px;
+	border-bottom: 4px solid yellow;
+}
+
+h1{
+	color:yellow;
+	padding:40px 0px 20px 40px;
+	font-size: 48px;
+}
+
+.nav{
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav{
+	float:right;
+	margin-right: 40px;
+}
+
+
+nav .upper{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+}
+#tagline{
+	background-color: #C6C6C6;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+.cross{
+	text-decoration: line-through;
+	color: grey;
+}
+
+.yellow{
+	border-bottom: 3px solid yellow;
+}
+
+#main{
+  background: url(../images/coworking.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 600px;
+
+}
+
+#signup{
+	background-color: rgba(255,255,255,.8);
+	height:400px;
+	width: 300px;
+	display: block;
+	box-shadow: 1px 1px 0 0 #A8A8A8;
+	float: right;
+	margin: 50px 50px 0px 0px;
+	padding:50px;
+}
+
+h3{
+	font-size: 42px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#signup p{
+	font-size: 24px;
+	font-family: arial;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+	line-height: 30px;
+}
+
+#signup button{
+	height: 50px;
+	background-color: yellow;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	border-radius: 5px;
+	border: none;
+	padding: 0px 40px 0px 40px;
+	font-weight: 600;
+	margin-left: 30px;
+	box-shadow: 0 3px 0 0 #C9C231;
+
+}
+
+.steps{
+	margin-top: 30px;
+	float: left;
+	width: 320px;
+	margin:0px 20px 0px 20px;
+}
+
+.line{
+	border-right: 2px solid #C6C6C6;
+	margin: 0px 40px 0px 40px;
+}
+
+.steps button{
+	height: 50px;
+	background-color: #C6C6C6;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	border-radius: 5px;
+	border: none;
+	padding: 0px 40px 0px 40px;
+	font-weight: 600;
+	box-shadow: 0 3px 0 0 #A2A2A2;
+	margin-top: 30px;
+
+}
+
+#steps{
+	width: 1200px;
+	margin: 40px 50px 0px 50px
+
+}
+
+h4{
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.steps p{
+	width:260px;
+	font-size: 24px;
+	font-family: arial;
+	margin-top: 20px;
+}
+
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+footer{
+	background-color: black;
+	height: 50px;
+	margin-top: 40px;
+}
+
+footer p {
+	font-size: 16px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px 0px 0px 20px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#signup a:hover {
+    color: 	#A52A2A;
+}
+

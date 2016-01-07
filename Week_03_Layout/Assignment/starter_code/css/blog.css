@@ -124,9 +124,9 @@ h2{
 h4{
   font-size: 32px;
   color: #033048;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin:0px;
   font-weight:800;
+  font-family: "Open Sans", sans-serif;
 
 }
 
