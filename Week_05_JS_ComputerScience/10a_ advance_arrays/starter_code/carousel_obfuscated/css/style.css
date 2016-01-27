@@ -13,6 +13,11 @@ Developer @GA in NYC
 
 
 /* Clear fix hack */
+
+h1{
+     font-size: 36px;
+     color: purple;
+}
 .clearfix:after {
      content: ".";
      display: block;
