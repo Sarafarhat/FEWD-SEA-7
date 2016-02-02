@@ -1,63 +1,67 @@
 $(document).ready(function() {
-
-	console.log("ready!");
 	var plays =["Rock","Paper","Scissors"];
 	var userTotal = 0;
 	var computerTotal = 0;
 
-	var userWins = function(){
+	var userWins = function(computerChoice, userChoice){
 		userTotal +=1;
+
 		$("#humanScore").html(userTotal);
+		$("body").css("background","blue");
+		//alert(userChoice + " beats " + computerChoice + " You won!");
+		$("#message").html("<h1>You win!</h1>")
+		
 	};
-	var computerWins = function(){
+	var computerWins = function(computerChoice, userChoice){
 		computerTotal +=1;
 		$("#computerScore").html(computerTotal);
+		$("body").css("background","red");
+		//alert(computerChoice + ' beats ' + userChoice + '. You lost!');
+		$("#message").html("<h6>You lose!</h6>")
+		
+	};
+	var tie = function (){
+		$("body").css("background","green");
+		//alert("It's a tie!");
+		$("#message").html("Choose wisely!")
+		
 	};
 	var rock = function(){
-		console.log("rock");
 		var botChoice = computerChoice();
 		if (botChoice === plays[0]){
-			alert("It's a tie! Computer picked "+ botChoice);
+			tie();
 		} else if (botChoice === plays[1]){
-			alert("You lost! " + botChoice + " beats rock.");
-			computerWins();
+			computerWins(botChoice, "Rock");
 		} else {
-			alert("You won! Rock beats " + botChoice);
-			userWins();
+			userWins(botChoice,"Rock");
 		}
 	}
-	$("#rock").on("click",rock);
 	var paper = function(){
-		console.log("paper");
 		var botChoice = computerChoice();
 		if (botChoice === plays[0]){
-			alert("You won! Paper beats " + botChoice);
-			userWins();
+			userWins(botChoice,"Paper");
 		} else if (botChoice === plays[1]){
-			alert("It's a tie! Computer picked paper too.");
+			tie();
 		} else {
-			alert("You lost!" + botChoice +" beats paper.");
-			computerWins();
+			computerWins(botChoice, "Paper");
 		}
 	}
-	$("#paper").on("click",paper);
 	var scissors = function(){
-		console.log("scissors");
 		var botChoice = computerChoice();
 		if (botChoice === plays[0]){
-			alert("You lost!" + botChoice + " beats scissors.");
-			computerWins();
+			computerWins(botChoice,"Scissors");
 		} else if (botChoice === plays[1]){
-			alert("You won! Scissors beats "+ botChoice);
-			userWins();
+			userWins(botChoice,"Scissors");
 		} else {
-			alert("It's a tie! Computer picked " + botChoice);
+			tie();
 		}
 	}
-	$("#scissors").on("click",scissors);
 	var computerChoice = function getComputerPlay() {
 		var play = plays[Math.floor(Math.random() * plays.length)]; // floor rounds the decimal down  so math random is giving us a value betwee 0 and 1 and then we are multiplying it by 3, so the max we will get is 2.99 which rounds to 2. So this function will give us three values only 0, 1, 2 which can be used to refer to items in array plays.
 		return play;
 	}
+	$("#rock").on("click",rock);
+	$("#paper").on("click",paper);
+	$("#scissors").on("click",scissors);
 });
 
