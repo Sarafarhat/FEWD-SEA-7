@@ -45,6 +45,48 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+.textbox { 
+  height: 25px; 
+  width: 400px; 
+  font-size: 18px;
+  background-color: transparent;  
+  border-style: solid;  
+  border-width: 0px 0px 1px 0px;  
+  border-color: black; 
+  outline:0;
+  float: right;
+  margin-top:40px; 
+} 
+
+.label{
+  float:left;
+  font-size: 18px;
+  word-wrap: break-word;
+  width:200px;
+  margin-top:40px; 
+}
+.radio{
+  font-size: 18px;
+  padding-right: 45px;
+  margin-top:40px; 
+}
+#options{
+  float:right;
+  margin-top:30px; 
+}
+#checkbox{
+  font-size: 18px;
+  
+}
+h1{
+  font-size: 48px;
+}
+form{
+  background-color: #efefef;
+  padding:30px;
+  margin:20px 0px 50px 0px; 
+  border-radius: 10px;
+}
 body {
   color: #f0efef;
   font-size: 26px;
@@ -125,6 +167,10 @@ header nav ul li a {
 .yellow {
   background: #f9e42e;
   color: #033048;
+}
+.register{
+  margin: 40px 0px;
+
 }
 .blue {
   background: #033048;

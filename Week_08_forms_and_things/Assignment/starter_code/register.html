@@ -28,7 +28,47 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
-					<input type="submit" value="Register Now!">
+					<h1>Register Now!</h1>
+					<br>
+					<form  class="clearfix" action="register.php" method="post" enctype="multipart/form-data">
+						<label class="label" for="username">Full Name :</label>
+						<input class="textbox" name="username" type="text" placeholder="Enter your full name" />
+						<br>
+						<label class="label" for="email">Email :</label>
+						<input class="textbox" name="email" type="email" placeholder="Enter your email" />
+						<br>
+						<label class="label" for="Phone">Phone :</label>
+						<input class="textbox" name="phone" type="tele" placeholder="Enter your phone number" />
+						<br>
+						<label  class="label" for="State">State :</label>
+						<select class="textbox" id="state">
+    						<option value="state">select a state</option>
+  						</select>
+  						<br>
+  						<label class="label" for="Phone">Phone :</label>
+						<input class="textbox" type="tele" placeholder="Enter your phone number" />
+						<br>
+						<div class="clearfix">
+							<label class="label">Which service are you interested in?</label>
+							<div id="options">
+								<input class="radio" type="radio" name="service" value="Relaxing"/>
+								<label class="radio" for="radio">Relaxing</label>
+								<input class="radio" type="radio" name="service" value="Email"/>
+								<label class="radio" for="radio">Email</label>
+								<input class="radio" type="radio" name="service" value="Phone"/>
+								<label class="radio" for="radio">Phone</label>
+							</div>
+						</div>
+						<br>
+						<div id="checkbox">
+							<input type="checkbox" name="agreement" value="agree"> 
+							<label for="checkbox">I agree to the terms</label>
+							<br>
+						</div>
+  <!--Data collection elements go here -->
+  						<input class="button blue register" type="submit" value="Register Now!">
+					</form>
+					
 				</section>
 			</div>
 		</section>
@@ -43,5 +83,7 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+   		<script src="js/main.js" type="text/javascript"></script> 
 	</body>
 </html>
